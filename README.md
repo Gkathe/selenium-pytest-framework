@@ -167,21 +167,18 @@ El reporte se genera automáticamente en `reports/report.html`.
 
 ### Reporte HTML
 
->   *Agrega aquí una captura de `reports/report.html` con todos los tests en verde.*
+Cuando se realizan los tests, se capturan y se guardan en  `reports/report.html` 
 
-```markdown
-![Reporte HTML](docs/img/reporte.png)
-```
+>   ![alt text](image-2.png)
+
+
 
 ### Screenshot automático ante fallos
 
 Cuando un test falla, el hook `pytest_runtest_makereport` de `conftest.py` captura la pantalla, la guarda en `reports/screenshots/` y la incrusta en el reporte.
 
-> 📸 *Agrega aquí una captura de un test fallido con su imagen adjunta.*
+> ![alt text](image-1.png)
 
-```markdown
-![Fallo con screenshot](docs/img/fallo.png)
-```
 
 ---
 
@@ -207,7 +204,7 @@ Permiten ejecución en paralelo y en cualquier orden, sin efectos colaterales en
 
 ---
 
-## 🚀 Próximos pasos
+##  Próximos pasos
 
 - [ ] Integrar **GitHub Actions** (ejecución en cada push/PR y matriz de navegadores)
 - [ ] Migrar reportes a **Allure**
@@ -218,14 +215,14 @@ Permiten ejecución en paralelo y en cualquier orden, sin efectos colaterales en
 
 ---
 
-## 👤 Autor
+##  Autor
 
-**Tu Nombre** — QA Automation Engineer
+** Giselle Castillo ** — QA Automation Engineer
 
-- LinkedIn: [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil)
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Email: tu-correo@ejemplo.com
+- LinkedIn: [https://www.linkedin.com/in/giselle-katherin-castillo-ariza-929aaa139/]
+- GitHub: [https://github.com/Gkathe]
+- Email: gkathe93@gmail.com
 
 ---
 
-> ⚠️ Este proyecto se ejecuta contra [SauceDemo](https://www.saucedemo.com), un sitio creado públicamente para practicar automatización. Solo tiene fines educativos y de portafolio.
+>  Este proyecto se ejecuta contra [SauceDemo](https://www.saucedemo.com), un sitio creado públicamente para practicar automatización. Solo tiene fines educativos y de portafolio.
